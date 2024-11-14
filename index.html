@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CelBa-Store | Productos de K-pop y Novedades Asiáticas</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fdf0f8;
+            color: #4a2c59;
+        }
+
+        /* Encabezado */
+        header {
+            background-color: #f5a9d0;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        header h1 {
+            font-family: 'Comic Sans MS', cursive;
+            font-size: 2em;
+            color: #a8328a;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2em;
+            color: #ffffff;
+            margin: 5px 0 0;
+        }
+
+        /* Menú de navegación */
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #e1bce7;
+            padding: 10px;
+        }
+        nav a {
+            color: #4a2c59;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Banner */
+        .banner {
+            background-color: #f9d3eb;
+            text-align: center;
+            padding: 20px;
+            margin-top: 10px;
+        }
+        .banner img {
+            width: 60%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        /* Productos */
+        .productos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .producto {
+            background-color: #fff;
+            border: 2px solid #e1bce7;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            width: 200px;
+        }
+        .producto img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .producto h2 {
+            font-family: 'Comic Sans MS', cursive;
+            font-size: 1.2em;
+            color: #a8328a;
+            margin: 10px 0;
+        }
+        .producto p {
+            font-size: 0.9em;
+        }
+        .boton-comprar {
+            background-color: #f5a9d0;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .boton-comprar:hover {
+            background-color: #e183b9;
+        }
+
+        /* Formulario de contacto */
+        .formulario {
+            text-align: center;
+            padding: 20px;
+            background-color: #f9d3eb;
+            margin: 20px;
+            border-radius: 10px;
+        }
+        .formulario label, .formulario input[type="submit"] {
+            display: block;
+            margin: 10px auto;
+            font-size: 1em;
+        }
+        .formulario input[type="email"], .formulario input[type="submit"] {
+            padding: 8px;
+            width: 60%;
+            border-radius: 5px;
+            border: 1px solid #e1bce7;
+        }
+        .formulario input[type="submit"] {
+            background-color: #f5a9d0;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        /* Redes sociales */
+        .redes-sociales {
+            text-align: center;
+            padding: 20px;
+        }
+        .redes-sociales a {
+            color: #a8328a;
+            margin: 0 10px;
+            font-size: 1.2em;
+            text-decoration: none;
+        }
+
+        /* Métodos de pago */
+        .metodos-pago {
+            text-align: center;
+            padding: 20px;
+            background-color: #f9d3eb;
+            border-top: 2px solid #e1bce7;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bienvenidos a CelBa-Store</h1>
+    <p>Somos tu tienda favorita de K-pop y artículos de novedad asiática</p>
+</header>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#artistas">Artistas</a>
+    <a href="#productos">Productos</a>
+</nav>
+
+<section class="banner">
+    <img src="banner-descuentos.jpg" alt="Descuentos especiales en CelBa-Store">
+</section>
+
+<section id="productos" class="productos">
+    <article class="producto">
+        <img src="album-kpop.jpg" alt="Álbum de K-pop">
+        <h2>Álbum de K-pop</h2>
+        <p>Edición especial, incluye photocards y póster.</p>
+        <button class="boton-comprar">Comprar</button>
+    </article>
+    <article class="producto">
+        <img src="lighstick.jpg" alt="Lightstick">
+        <h2>Lightstick</h2>
+        <p>Oficial, ideal para conciertos y eventos.</p>
+        <button class="boton-comprar">Comprar</button>
+    </article>
+    <article class="producto">
+        <img src="photocards.jpg" alt="Photocards">
+        <h2>Photocards</h2>
+        <p>Set de 20, con imágenes exclusivas de artistas.</p>
+        <button class="boton-comprar">Comprar</button>
+    </article>
+    <article class="producto">
+        <img src="sylvanian-families.jpg" alt="Sylvanian Families">
+        <h2>Sylvanian Families</h2>
+        <p>Colección original, figuras y accesorios incluidos.</p>
+        <button class="boton-comprar">Comprar</button>
+    </article>
+    <article class="producto">
+        <img src="bolsa-ositos-cariñosos.jpg" alt="Bolsa de Ositos Cariñosos">
+        <h2>Bolsa de Ositos Cariñosos</h2>
+        <p>Bolso con diseño de personajes, resistente y espacioso.</p>
+        <button class="boton-comprar">Comprar</button>
+    </article>
+</section>
+
+<section class="formulario">
+    <h2>¿Deseas recibir más información?</h2>
+    <form action="#">
+        <label for="email">Ingresa tu correo electrónico:</label>
+        <input type="email" id="email" name="email" placeholder="correo@ejemplo.com" required>
+        <input type="submit" value="Enviar">
+    </form>
+</section>
+
+<section class="metodos-pago">
+    <h2>Formas de Pago</h2>
+    <p>Aceptamos tarjetas de crédito y débito, PayPal y transferencias bancarias.</p>
+</section>
+
+<footer class="redes-sociales">
+    <h2>Síguenos en nuestras redes sociales</h2>
+    <a href="https://www.facebook.com/CelBaStore" target="_blank">Facebook</a> |
+    <a href="https://www.instagram.com/CelBaStore" target="_blank">Instagram</a> |
+    <a href="https://twitter.com/CelBaStore" target="_blank">Twitter</a>
+</footer>
+
+</body>
+</html>
