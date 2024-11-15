@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CelBa-Store | Productos</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fdf0f8;
+            color: #4a2c59;
+        }
+
+        /* Encabezado */
+        header {
+            background-color: #f5a9d0;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        header h1 {
+            font-family: 'Comic Sans MS', cursive;
+            font-size: 2em;
+            color: #a8328a;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2em;
+            color: #ffffff;
+            margin: 5px 0 0;
+        }
+
+        /* Menú de navegación */
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #e1bce7;
+            padding: 10px;
+        }
+        nav a {
+            color: #4a2c59;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Sección de productos */
+        .productos {
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .producto {
+            background-color: #fff;
+            border: 2px solid #e1bce7;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+        }
+        .producto img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .producto h2 {
+            font-family: 'Comic Sans MS', cursive;
+            font-size: 1.2em;
+            color: #a8328a;
+            margin: 10px 0;
+        }
+        .producto p {
+            font-size: 0.9em;
+            color: #4a2c59;
+        }
+        .boton-comprar {
+            background-color: #f5a9d0;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .boton-comprar:hover {
+            background-color: #e183b9;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Productos de CelBa-Store</h1>
+    <p>Explora nuestra colección de artículos de K-pop y novedades asiáticas</p>
+</header>
+
+<nav>
+    <a href="index.html">Inicio</a>
+    <a href="artistas.html">Artistas</a>
+    <a href="productos.html">Productos</a>
+</nav>
+
+<section class="productos">
+    <!-- Productos de BTS -->
+    <article class="producto">
+        <img src="./IMG/albumbts.jpg" alt="Álbum BTS">
+        <h2>Álbum BTS - BE</h2>
+        <p>Álbum "BE" de BTS con photobook, photocards y póster de edición limitada.</p>
+        <button class="boton-comprar">Comprar</button>
+    </article>
+    <article class="producto">
+        <img src="./IMG/bangtan.jpg.avif" alt="Lightstick BTS">
+        <h2>Lightstick BTS</h2>
+        <p>Lightstick oficial de BTS, perfecto para los conciertos y reuniones de ARMY.</p>
+        <button class="boton-comprar">Comprar</button>
+    </article>
+    <article class="producto">
+        <img src="./IMG/pcbts.jpg" alt="Photocards BTS">
+        <h2>Photocards BTS</h2>
+        <p>Set exclusivo de photocards de BTS, con imágenes de la última gira.</p>
+        <button class="boton-comprar">Comprar</button>
+    </article>
+
+    <!-- Productos de Blackpink -->
+    <article class="producto">
+        <img src="./IMG/blackpinkalbum.jpg" alt="Álbum Blackpink">
+        <h2>Álbum Blackpink - THE ALBUM</h2>
+        <p>Disco "THE ALBUM" de Blackpink, con contenido exclusivo para los fans.</p>
+        <button class="boton-comprar">Comprar</button>
+    </article>
+    <article class="producto">
+        <img src="./IMG/poster.jpg" alt="Póster Blackpink">
+        <h2>Póster Blackpink</h2>
+        <p>Póster de colección con las integrantes de Blackpink en alta calidad.</p>
+        <button class="boton-comprar">Comprar</button>
+    </article>
+    <article class="producto">
+        <img src="./IMG/blackpinkligh.jpg" alt="Lightstick Blackpink">
+        <h2>Lightstick Blackpink</h2>
+        <p>Lightstick oficial de Blackpink, ¡imprescindible para cada concierto!</p>
+        <button class="boton-comprar">Comprar</button>
+    </article>
+
+    <!-- Productos de EXO -->
+    <article class="producto">
+        <img src="./IMG/exoalbum.jpg" alt="Álbum EXO">
+        <h2>Álbum EXO - OBSESSION</h2>
+        <p>Álbum "OBSESSION" de EXO, con booklet y photocards exclusivas.</p>
+        <button class="boton-comprar">Comprar</button>
+    </article>
+    <article class="producto">
+        <img src="./IMG/exoligh.jpg.webp" alt="Lightstick EXO">
+        <h2>Lightstick EXO</h2>
+        <p>Lightstick oficial de EXO, diseñado para iluminar cada concierto EXO-L.</p>
+        <button class="boton-comprar">Comprar</button>
+    </article>
+    <article class="producto">
+        <img src="./IMG/pcexo.jpg" alt="Photocards EXO">
+        <h2>Photocards EXO</h2>
+        <p>Set de photocards de EXO de edición limitada para los verdaderos fans.</p>
+        <button class="boton-comprar">Comprar</button>
+    </article>
+
+    <!-- Productos de Twice -->
+    <article class="producto">
+        <img src="./IMG/albumtwice.jpg.avif" alt="Álbum Twice">
+        <h2>Álbum Twice - Eyes Wide Open</h2>
+        <p>Álbum "Eyes Wide Open" de Twice, con póster y photocards oficiales.</p>
+        <button class="boton-comprar">Comprar</button>
+    </article>
+    <article class="producto">
+        <img src="./IMG/twiceligh.jpg" alt="Lightstick Twice">
+        <h2>Lightstick Twice</h2>
+        <p>Lightstick oficial de Twice, con diseño único para ONCE.</p>
+        <button class="boton-comprar">Comprar</button>
+    </article>
+    <article class="producto">
+        <img src="./IMG/twice.jpg.webp" alt="Photocards Twice">
+        <h2>Photocards Twice</h2>
+        <p>Set de photocards de Twice, edición especial para la colección ONCE.</p>
+        <button class="boton-comprar">Comprar</button>
+    </article>
+
+    <!-- Productos de Stray Kids -->
+    <article class="producto">
+        <img src="./IMG/albumstray.jpg" alt="Álbum Stray Kids">
+        <h2>Álbum Stray Kids - NOEASY</h2>
+        <p>Álbum "NOEASY" de Stray Kids, con photobook y photocards exclusivas.</p>
+        <button class="boton-comprar">Comprar</button>
+    </article>
+    <article class="producto">
+        <img src="./IMG/straykids.jpg.webp" alt="Lightstick Stray Kids">
+        <h2>Lightstick Stray Kids</h2>
+        <p>Lightstick oficial de Stray Kids, para que STAY ilumine cada show.</p>
+        <button class="boton-comprar">Comprar</button>
+    </article>
+    <article class="producto">
+        <img src="./IMG/pcstray.jpg" alt="Photocards Stray Kids">
+        <h2>Photocards Stray Kids</h2>
+        <p>Set de photocards de Stray Kids, con imágenes de la última gira mundial.</p>
+        <button class="boton-comprar">Comprar</button>
+    </article>
+</section>
+
+</body>
+</html>

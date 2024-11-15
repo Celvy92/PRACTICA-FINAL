@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CelBa-Store | Artistas de K-pop</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fdf0f8;
+            color: #4a2c59;
+        }
+
+        /* Encabezado */
+        header {
+            background-color: #f5a9d0;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        header h1 {
+            font-family: 'Comic Sans MS', cursive;
+            font-size: 2em;
+            color: #a8328a;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2em;
+            color: #ffffff;
+            margin: 5px 0 0;
+        }
+
+        /* Menú de navegación */
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #e1bce7;
+            padding: 10px;
+        }
+        nav a {
+            color: #4a2c59;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Sección de artistas */
+        .artistas {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .artista {
+            background-color: #fff;
+            border: 2px solid #e1bce7;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            width: 200px;
+        }
+        .artista img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .artista h2 {
+            font-family: 'Comic Sans MS', cursive;
+            font-size: 1.2em;
+            color: #a8328a;
+            margin: 10px 0;
+        }
+        .artista p {
+            font-size: 0.9em;
+        }
+        .boton-comprar {
+            background-color: #f5a9d0;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .boton-comprar:hover {
+            background-color: #e183b9;
+        }
+
+        /* Redes sociales */
+        .redes-sociales {
+            text-align: center;
+            padding: 20px;
+        }
+        .redes-sociales a {
+            color: #a8328a;
+            margin: 0 10px;
+            font-size: 1.2em;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Artistas en CelBa-Store</h1>
+    <p>Encuentra productos de tus artistas favoritos</p>
+</header>
+
+<nav>
+    <a href="index.html">Inicio</a>
+    <a href="artistas.html">Artistas</a>
+    <a href="productos.html">Productos</a>
+</nav>
+
+<section class="artistas">
+    <article class="artista">
+        <img src="./IMG/bangtan.jpg.avif" alt="BTS">
+        <h2>BTS</h2>
+        <p>Descubre los productos exclusivos de BTS, como álbumes, photocards y lightsticks.</p>
+        <button class="boton-comprar">Ver productos</button>
+    </article>
+    <article class="artista">
+        <img src="./IMG/blackpink.jpg" alt="Blackpink">
+        <h2>Blackpink</h2>
+        <p>Compra productos oficiales de Blackpink, desde álbumes hasta accesorios de moda.</p>
+        <button class="boton-comprar">Ver productos</button>
+    </article>
+    <article class="artista">
+        <img src="./IMG/exo.jpg" alt="EXO">
+        <h2>EXO</h2>
+        <p>Encuentra el mejor merchandising de EXO, con artículos únicos y exclusivos.</p>
+        <button class="boton-comprar">Ver productos</button>
+    </article>
+    <article class="artista">
+        <img src="./IMG/twice.jpg" alt="Twice">
+        <h2>Twice</h2>
+        <p>Explora la colección de Twice, con productos oficiales y de edición limitada.</p>
+        <button class="boton-comprar">Ver productos</button>
+    </article>
+    <article class="artista">
+        <img src="./IMG/straykids.jpg.webp" alt="Stray Kids">
+        <h2>Stray Kids</h2>
+        <p>Productos exclusivos de Stray Kids, perfectos para cualquier fanático leal.</p>
+        <button class="boton-comprar">Ver productos</button>
+    </article>
+</section>
+
+<footer class="redes-sociales">
+    <h2>Síguenos en nuestras redes sociales</h2>
+    <a href="https://www.facebook.com/CelBaStore" target="_blank">Facebook</a> |
+    <a href="https://www.instagram.com/CelBaStore" target="_blank">Instagram</a> |
+    <a href="https://twitter.com/CelBaStore" target="_blank">Twitter</a>
+</footer>
+
+</body>
+</html>
